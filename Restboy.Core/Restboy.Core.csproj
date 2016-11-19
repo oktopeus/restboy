@@ -30,9 +30,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\RequestUrlViewModel.cs" />
+    <Compile Include="ViewModels\KeyValueViewModel.cs" />
+    <Compile Include="ViewModels\TextParameterViewModel.cs" />
+    <Compile Include="ViewModels\KeyTextParameterViewModel.cs" />
+    <Compile Include="ViewModels\ValueTextParameterViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
